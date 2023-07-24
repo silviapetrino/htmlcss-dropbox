@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #0061FF;
 }
 
 li {
@@ -15,6 +14,11 @@ li {
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 /* palette colori landing page  */
@@ -43,8 +47,14 @@ a {
   font-weight: 500;
 }
 
+.smaller-text {
+  font-size: .7rem;
+  font-weight: 500;
+}
+
 .black-text {
   color: black;
+  font-weight: 500;
 }
 
 .btn-blue {
@@ -56,7 +66,7 @@ a {
 /* header section  */
 
 header {
-  width: 100vw;
+  width: 100%;
 }
 
 header .topbar {
@@ -74,7 +84,8 @@ header .topbar {
 
 header .topbar .left-elements,
 header .topbar .right-elements {
-  width: 50vw;
+  width: 50%;
+  height: 100%;
   cursor: pointer;
   font-size: .8rem;
   font-weight: 500;
@@ -83,7 +94,7 @@ header .topbar .right-elements {
 #logo, 
 header .topbar .left-elements a,
 header .topbar .right-elements a {
-  padding: 20px 9px;
+  padding: 20px 8px;
   color: var(--black);
 }
 
@@ -188,7 +199,6 @@ section.business-plans {
 }
 
 section.business-plans .container {
-  background-color: red;
   margin: 0 auto;
   width: 50%;
   max-width: 1200px;
@@ -198,15 +208,31 @@ section.business-plans .container {
 
 section.business-plans .container.plans {
   justify-content: flex-start;
+  padding-top: 40px;
 }
 
-.col {
+section.business-plans .col {
   width: calc(100% / 3);
 }
 
-.last.col {
+section.business-plans .last.col {
   width: 100%;
 }
+
+.text-section h2 {
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .business-plans div {
   border: 1px solid black;
