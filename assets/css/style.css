@@ -57,6 +57,10 @@ h2 {
   font-weight: 500;
 }
 
+.gray-text {
+  color:gray
+}
+
 .btn-blue {
   background-color: var(--blue);
   color: white;
@@ -213,6 +217,7 @@ section.business-plans .container.plans {
 
 section.business-plans .col {
   width: calc(100% / 3 - 30px);
+  border: 1px solid #F3F3F3;
 }
 
 section.business-plans .last.col {
@@ -220,21 +225,39 @@ section.business-plans .last.col {
   padding-top: 20px;
 }
 
-.text-section h2 {
+
+section.business-plans .col {
+  padding: 0 10px;
+}
+
+section.business-plans .text-section h2 {
   padding: 20px 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-.business-plans div {
-  border: 1px solid black;
+section.business-plans .user {
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 6px 0;
 }
+
+section.business-plans .plan-type .month,
+.plan-type h3 {
+  padding: 5px 0;
+  display: block;
+}
+
+
+section.business-plans .plan-type li {
+  padding: 10px;
+}
+
+.plan-type li span i {
+  padding-right: 4px;
+}
+
+
+/* .business-plans div {
+  border: 1px solid black;
+} */
