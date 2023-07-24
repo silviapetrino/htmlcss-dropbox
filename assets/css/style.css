@@ -207,16 +207,17 @@ section.business-plans .container {
 }
 
 section.business-plans .container.plans {
-  justify-content: flex-start;
+  justify-content: space-between;
   padding-top: 40px;
 }
 
 section.business-plans .col {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 30px);
 }
 
 section.business-plans .last.col {
   width: 100%;
+  padding-top: 20px;
 }
 
 .text-section h2 {
