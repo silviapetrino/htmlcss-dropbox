@@ -38,11 +38,21 @@ a {
     clear: both;
 }
 
+.small-text {
+  font-size: .8rem;
+  font-weight: 500;
+}
 
 
 /* header section  */
 
+header {
+  width: 100vw;
+}
+
 header .topbar {
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--white);
   position: fixed;
   z-index: 999;
@@ -52,25 +62,21 @@ header .topbar {
   height: 60px;
 }
 
-header .topbar {
-  justify-content: space-between;
-  align-items: center;
-}
 
 header .topbar .left-elements,
 header .topbar .right-elements {
-  width: 50%;
+  width: 50vw;
   cursor: pointer;
   font-size: .8rem;
   font-weight: 500;
+  max-height: 100%;
 }
 
 #logo, 
 header .topbar .left-elements a,
 header .topbar .right-elements a {
-  padding: 20px 10px;
+  padding: 20px 9px;
   color: var(--black);
-  height: 100%;
 }
 
 #logo, 
@@ -116,9 +122,9 @@ main section.jumbotron {
   background-color: var(--light-blue);
 }
 
-main .jumbotron .container {
-  margin: 60px auto;
-  width: 70%;
+main section.jumbotron .container {
+  margin: 30px auto;
+  width: 65%;
   max-width: 1200px;
   min-width: 850px;
   background-color: var(--light-blue);
@@ -131,21 +137,23 @@ main .jumbotron .container {
  section.jumbotron h1 {
   font-size: 3.6rem;
   font-weight: 780;
-  padding-bottom: 30px;
-}
+ }
 
 section.jumbotron .text-section {
-  width: 30%;
+  width: 35%;
+  padding-top: 10px;
 }
 
 section.jumbotron .jumbo-img {
-  width: 70%;
+  width: 65%;
   position: relative;
+  padding-left: 10px;
 }
 
 section.jumbotron .jumbo-img img {
+ object-fit: cover;
  width: 600px;
- height: 330px;
+ min-width: 100%;
  position: absolute;
  left: 0;
  top: 10px;
