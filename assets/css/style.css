@@ -65,6 +65,10 @@ h2 {
   color:gray
 }
 
+.blue-text {
+  color: #0061FF;
+}
+
 .btn {
   cursor: pointer;
 }
@@ -236,6 +240,7 @@ section.business-plans .last.col {
 
 section.business-plans .col {
   padding: 0 10px;
+  background-color: red;
 }
 
 section.business-plans .text-section h2 {
@@ -269,10 +274,9 @@ section.business-plans .plan-type li {
   padding: 15px 0;
 }
 
-.plan-type li span i {
+.plan-type li i {
   padding-right: 4px;
 }
-
 
 section.business-plans .col .btn.prova {
  display: block;
@@ -280,6 +284,14 @@ section.business-plans .col .btn.prova {
  margin-bottom: 20px;
 }
 
-/* .business-plans div {
-  border: 1px solid black;
-} */
+.second-list i {
+  font-weight: 900;
+  font-size: .9rem
+}
+
+section.business-plans .first-list {
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #a4a2a2 30%, transparent 30%) 100% 1
+}
+
