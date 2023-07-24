@@ -16,3 +16,28 @@ body {
   --blue: #0061FF;
   --black: #000000;
 }
+
+/* utility class  */
+
+.display-flex {
+  display: flex;
+}
+
+/* header section  */
+/* altezza da togliere  */
+
+header .topbar {
+  background-color:red;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header .topbar .left-elements,
+header .topbar .right-elements {
+  background-color: yellow;
+  padding: 25px 5px;
+}
