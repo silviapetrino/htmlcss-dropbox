@@ -68,7 +68,7 @@ header .topbar .right-elements {
 #logo, 
 header .topbar .left-elements a,
 header .topbar .right-elements a {
-  padding: 20px 8px;
+  padding: 20px 10px;
   color: var(--black);
   height: 100%;
 }
@@ -112,34 +112,41 @@ header li:hover a {
 
 /* altezze da togliere */
 
-
+main section.jumbotron {
+  background-color: var(--light-blue);
+}
 
 main .jumbotron .container {
-  margin: 70px auto;
-  width: 100%;
+  margin: 60px auto;
+  width: 70%;
   max-width: 1200px;
-  background-color: red;
+  min-width: 850px;
+  background-color: var(--light-blue);
   flex-wrap: wrap;
+  padding-top: 50px;
+  position: relative;
 }
 
 
  section.jumbotron h1 {
-  font-size: 3.7rem;
-  font-weight: 800;
-  background-color: yellow;
+  font-size: 3.6rem;
+  font-weight: 780;
+  padding-bottom: 30px;
 }
 
 section.jumbotron .text-section {
   width: 30%;
-  background-color: aqua;
 }
 
 section.jumbotron .jumbo-img {
-  background-color: orange;
   width: 70%;
+  position: relative;
 }
 
 section.jumbotron .jumbo-img img {
- object-fit: cover;
- width: 700px;
+ width: 600px;
+ height: 330px;
+ position: absolute;
+ left: 0;
+ top: 10px;
 }
