@@ -51,13 +51,14 @@ header .topbar {
 
 header .topbar .container {
   justify-content: space-between;
-  font-size: .8rem;
 }
 
 header .topbar .left-elements,
 header .topbar .right-elements {
   width: 30%;
   cursor: pointer;
+  font-size: .8rem;
+  font-weight: 500;
 }
 
 #logo, 
@@ -87,7 +88,7 @@ header li:hover a {
 }
 
     /* header btn  */
-    
+
 .right-elements .btn:first-child {
  background-color: var(--blue);
  color: var(--white);
