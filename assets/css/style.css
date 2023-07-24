@@ -47,6 +47,11 @@ a {
   color: black;
 }
 
+.btn-blue {
+  background-color: var(--blue);
+  color: white;
+  padding: 10px;
+}
 
 /* header section  */
 
@@ -91,7 +96,6 @@ header .topbar .right-elements a {
   float: right;
 }
 
-
 #logo img {
   width: 100px;
   vertical-align: middle;
@@ -102,12 +106,6 @@ header li:hover a {
 }
 
     /* header btn  */
-
-.btn-blue {
-  background-color: var(--blue);
-  color: white;
-  padding: 10px;
-}
 
 .right-elements .btn.inizia {
   background-color: var(--blue);
@@ -135,7 +133,7 @@ section.jumbotron .container {
   margin: 30px auto;
   width: 65%;
   max-width: 1200px;
-  min-width: 850px;
+  min-width: 800px;
   background-color: var(--light-blue);
   flex-wrap: wrap;
   padding-top: 50px;
@@ -179,4 +177,37 @@ section.jumbotron .text-section .arrow {
   font-size: 2rem;
   font-weight: 1000;
   display: inline-block;
+}
+
+/* //jumbotron section */
+
+/*  business-plans section */
+
+section.business-plans {
+  padding-top: 50px;
+}
+
+section.business-plans .container {
+  background-color: red;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 1200px;
+  min-width: 800px;
+  flex-wrap: wrap;
+}
+
+section.business-plans .container.plans {
+  justify-content: flex-start;
+}
+
+.col {
+  width: calc(100% / 3);
+}
+
+.last.col {
+  width: 100%;
+}
+
+.business-plans div {
+  border: 1px solid black;
 }
