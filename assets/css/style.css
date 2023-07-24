@@ -55,7 +55,7 @@ header .topbar .container {
 
 header .topbar .left-elements,
 header .topbar .right-elements {
-  width: 30%;
+  width: 50%;
   cursor: pointer;
   font-size: .8rem;
   font-weight: 500;
@@ -64,7 +64,7 @@ header .topbar .right-elements {
 #logo, 
 header .topbar .left-elements a,
 header .topbar .right-elements a {
-  padding: 20px 10px;
+  padding: 20px 8px;
   margin: 2px;
   color: var(--black);
 }
