@@ -21,8 +21,8 @@ a.underline {
 }
 
 h2 {
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 710;
 }
 
 /* palette colori landing page  */
@@ -351,8 +351,13 @@ section.operations {
   padding-top: 100px; 
 }
 
-section.operations h2 {
+section.operations h2:first-of-type {
   padding-bottom: 35px
+}
+
+section.operations h2:last-of-type {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 section.operations .row {
