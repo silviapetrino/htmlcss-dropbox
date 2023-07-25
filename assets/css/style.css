@@ -357,16 +357,20 @@ section.operations h2 {
 section.operations .row {
   justify-content: space-between;
   width: 100%;
-  /* height: 50px; da togliere */
-  background-color: blue;
   margin-bottom: 10px;
 }
 
-/* height: 50px; da togliere */
 
 section.operations .row .col {
   width: calc(100% / 3 - 30px);
-  background-color: red;
-  height: 50px;
   border: 1px solid black;
+}
+
+section.operations .row .col img {
+ object-fit: cover;
+ width: 100%;
+}
+
+section.operations .row .col h3 {
+  padding-bottom: 5px;
 }
