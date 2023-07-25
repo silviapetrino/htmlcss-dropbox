@@ -454,19 +454,19 @@ section.square-boxes .small-square:nth-child(4) {
   background-color: var(--light-red);
  }
 
-section.square-boxes .small-square:nth-child(5) {
+section.square-boxes .big-square:nth-child(3) .small-square:nth-child(1) {
   background-color: var(--red);
  }
 
-section.square-boxes .small-square:nth-child(6) {
+section.square-boxes .big-square:nth-child(3) .small-square:nth-child(2) {
   background-color: var(--light-blue);
  }
 
- section.square-boxes .small-square:nth-child(7) {
+ section.square-boxes .big-square:nth-child(3) .small-square:nth-child(3) {
   background-color: var(--blue2);
  }
 
- section.square-boxes .small-square:nth-child(8) {
+ section.square-boxes .big-square:nth-child(3) .small-square:nth-child(4) {
   background-color: var(--yellow);
  }
 
