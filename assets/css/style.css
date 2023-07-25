@@ -158,9 +158,8 @@ main section.jumbotron {
 
 section.jumbotron .container {
   flex-wrap: wrap;
-  margin: 30px auto;
-  width: 70%;
-  max-width: 1200px;
+  margin: 30px auto 0px auto;
+  width: 65%;
   min-width: 600px;
   background-color: var(--light-blue);
   padding-top: 100px;
@@ -182,15 +181,16 @@ section.jumbotron .jumbo-img {
   width: 65%;
   position: relative;
   padding-left: 10px;
+  height: 100%;
 }
 
 section.jumbotron .jumbo-img img {
  object-fit: cover;
- width: 600px;
+ width: 650px;
  min-width: 100%;
  position: absolute;
  left: 0;
- top: 30px;
+ top: 35px;
 }
 
 section.jumbotron .text-section .actions {
@@ -344,3 +344,5 @@ section.find-partner .btn {
   border: 1px solid black;
   color: black;
 }
+
+/* find partner section */
