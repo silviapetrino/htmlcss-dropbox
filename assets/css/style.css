@@ -585,7 +585,10 @@ section.faq .question-box:hover .answer {
   opacity: 1;
 }
 
-/* faq section  */
+/* /faq section  */
+
+/*  footer   */
+
 
 footer {
   background-color: var(--black);
@@ -617,3 +620,5 @@ footer .language.container {
 footer .language i:last-child {
  vertical-align: top;
 }
+
+/*  /footer   */
