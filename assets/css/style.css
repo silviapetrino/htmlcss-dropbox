@@ -420,7 +420,9 @@ section.square-boxes .big-square {
 
 section.square-boxes .small-square {
   width: 50%;
+  min-width: 200px;
   height: 35vh;
+  min-height: 200px;
   position: relative;
 }
 
@@ -440,6 +442,9 @@ section.square-boxes .small-square:nth-child(3) img {
   height: 55%;
 }
 
+section.square-boxes .big-square:nth-child(3) .small-square:nth-child(3) img {
+  padding: 40px;
+}
 
 section.square-boxes .small-square:first-child {
  background-color: var(--light-green);
