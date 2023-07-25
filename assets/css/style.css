@@ -345,7 +345,9 @@ section.find-partner .btn {
   color: black;
 }
 
-/* find partner section */
+/* /find partner section */
+
+/* operations section*/
 
 section.operations {
   padding-top: 100px; 
@@ -358,6 +360,11 @@ section.operations h2:first-of-type {
 section.operations h2:last-of-type {
   padding-top: 100px;
   padding-bottom: 50px;
+}
+
+section.operations a {
+  display: inline-block;
+  margin-bottom: 50px;
 }
 
 section.operations .row {
@@ -380,3 +387,27 @@ section.operations .row .col img {
 section.operations .row .col h3 {
   padding-bottom: 25px;
 }
+
+/* /operations section*/
+
+/* square boxes section   */
+
+section.square-boxes {
+  background-color: yellow;
+  height: 70vh;
+}
+
+.big-square {
+  border: 1px solid black;
+  width: calc(100% / 3);
+  height: 70vh;
+  flex-wrap: wrap;
+}
+
+.small-square {
+  border: 1px solid black;
+  width: 50%;
+  height: 35vh;
+}
+
+/* /square boxes section   */
