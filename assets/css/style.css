@@ -411,20 +411,22 @@ section.operations .row .col h3 {
 /* square boxes section   */
 
 section.square-boxes {
-  height: 70vh;
+  height: 65vh;
 }
 
-section.square-boxes .big-square {
+section.square-boxes .big-square,
+section.square-boxes .big-square.center {
   width: calc(100% / 3);
-  height: 70vh;
+  min-width: 400px;
+  height: 65vh;
+  min-height: 65vh;
   flex-wrap: wrap;
 }
 
 section.square-boxes .small-square {
   width: 50%;
-  min-width: calc( 100% / 4);
-  height: 35vh;
-  min-height: 200px;
+  min-width: 200px;
+  height: calc(100% / 2);
   position: relative;
   cursor: pointer;
 }
@@ -480,9 +482,6 @@ section.square-boxes .big-square:nth-child(3) .small-square:nth-child(2) {
 
 
 
-
-
-
 section.square-boxes .big-square.center {
   background-color: var(--gray);
   overflow-y: auto;
@@ -507,3 +506,11 @@ section.square-boxes .big-square.center p {
 }
 
 /* /square boxes section   */
+
+/* inizia prova" section  */
+
+section.inizia-prova {
+  background-color: var(--light-blue3);
+  width: 100%;
+  height: 40vh;
+}
