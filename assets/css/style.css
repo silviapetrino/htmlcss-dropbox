@@ -351,18 +351,18 @@ section.operations {
 }
 
 section.operations h2 {
-  padding-bottom: 30px
+  padding-bottom: 35px
 }
 
 section.operations .row {
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 
 section.operations .row .col {
-  width: calc(100% / 3 - 30px);
+  width: calc(100% / 3 - 40px);
   /* border: 1px solid black; */
 }
 
