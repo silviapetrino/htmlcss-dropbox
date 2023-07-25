@@ -93,6 +93,10 @@ h2 {
   color: white;
 }
 
+.active {
+  border: 15px solid  #96ba91;
+}
+
 /* header section  */
 
 header {
@@ -109,7 +113,7 @@ header .topbar {
   left: 0;
   width: 100%;
   height: 60px;
-  box-shadow: 2px 0px 10px rgb(210, 208, 208)
+  box-shadow: 2px 0px 10px rgb(210, 208, 208);
 }
 
 
@@ -307,7 +311,7 @@ section.business-plans .col .btn.prova {
 section.business-plans .first-list {
   padding-bottom: 20px;
   border-bottom: 1px solid;
-  border-image: linear-gradient(to right, #a4a2a2 30%, transparent 30%) 100% 1
+  border-image: linear-gradient(to right, #a4a2a2 30%, transparent 30%) 100% 1;
 }
 
    /* last-col plans section  */
@@ -407,12 +411,10 @@ section.operations .row .col h3 {
 /* square boxes section   */
 
 section.square-boxes {
-  background-color: yellow;
   height: 70vh;
 }
 
 section.square-boxes .big-square {
-  border: 1px solid black;
   width: calc(100% / 3);
   height: 70vh;
   flex-wrap: wrap;
@@ -424,6 +426,7 @@ section.square-boxes .small-square {
   height: 35vh;
   min-height: 200px;
   position: relative;
+  cursor: pointer;
 }
 
 section.square-boxes .small-square img {
@@ -481,8 +484,26 @@ section.square-boxes .big-square:nth-child(3) .small-square:nth-child(2) {
 
 
 section.square-boxes .big-square.center {
+  background-color: var(--gray);
   overflow-y: auto;
 }
 
+section.square-boxes .big-square.center .content {
+  padding: 50px 20px 0px 50px;
+}
+
+
+section.square-boxes .big-square.center img {
+  padding-bottom: 40px;
+  object-fit: cover;
+  width: 45%;
+  height: 100%;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #a4a2a2 30%, transparent 30%) 100% 1;
+}
+
+section.square-boxes .big-square.center p {
+  padding-top: 50px;
+}
 
 /* /square boxes section   */
