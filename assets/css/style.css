@@ -363,7 +363,7 @@ section.operations .row {
 
 section.operations .row .col {
   width: calc(100% / 3 - 30px);
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 section.operations .row .col img {
@@ -372,5 +372,5 @@ section.operations .row .col img {
 }
 
 section.operations .row .col h3 {
-  padding-bottom: 5px;
+  padding-bottom: 25px;
 }
