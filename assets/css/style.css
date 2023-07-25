@@ -610,5 +610,10 @@ footer .col ul {
 }
 
 footer .language.container {
-  background-color: red;;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, #a4a2a2 10%, transparent 0%) 100% 1;
+}
+
+footer .language i:last-child {
+ vertical-align: top;
 }
