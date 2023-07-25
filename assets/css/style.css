@@ -157,18 +157,18 @@ main section.jumbotron {
 }
 
 section.jumbotron .container {
+  flex-wrap: wrap;
   margin: 30px auto;
   width: 65%;
-  max-width: 1200px;
-  min-width: 800px;
+  max-width: 1300px;
+  min-width: 700px;
   background-color: var(--light-blue);
-  flex-wrap: wrap;
   padding-top: 100px;
   position: relative;
 }
 
 
- section.jumbotron h1 {
+section.jumbotron h1 {
   font-size: 3.6rem;
   font-weight: 780;
  }
@@ -218,7 +218,7 @@ section.business-plans .container {
   margin: 0 auto;
   width: 50%;
   max-width: 1200px;
-  min-width: 800px;
+  min-width: 700px;
   flex-wrap: wrap;
 }
 
@@ -234,7 +234,8 @@ section.business-plans .col {
 
 section.business-plans .last.col {
   width: 100%;
-  padding-top: 20px;
+  margin-top: 20px;
+  position: relative;
 }
 
 
@@ -293,6 +294,14 @@ section.business-plans .first-list {
   padding-bottom: 20px;
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, #a4a2a2 30%, transparent 30%) 100% 1
+}
+
+   /* last-col plans section  */
+
+.last.col .btn {
+  position: absolute;
+  top: 25%;
+  left: 73%;
 }
 
 /*  /business-plans section */
