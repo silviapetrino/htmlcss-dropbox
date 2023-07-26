@@ -419,19 +419,19 @@ section.operations .row .col h3 {
 /* square boxes section   */
 
 section.square-boxes {
-   height: 70vh;
-}
+  width: 100%;
+} 
 
 section.square-boxes .big-square,
 section.square-boxes .big-square.center {
-  height: 70vh;
+  height: calc(100vw / 3);
   width: calc(100vw / 3);
   flex-wrap: wrap;
 }
 
 section.square-boxes .small-square {
-  height: 35vh;
-  width: 15vw;
+  height: 50%;
+  width: 50%;
   position: relative;
   cursor: pointer;
 }
