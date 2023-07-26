@@ -419,22 +419,19 @@ section.operations .row .col h3 {
 /* square boxes section   */
 
 section.square-boxes {
-  height: 65vh;
+   height: 70vh;
 }
 
 section.square-boxes .big-square,
 section.square-boxes .big-square.center {
-  width: calc(100% / 3);
-  min-width: 400px;
-  height: 65vh;
-  min-height: 65vh;
+  height: 70vh;
+  width: calc(100vw / 3);
   flex-wrap: wrap;
 }
 
 section.square-boxes .small-square {
-  width: 50%;
-  min-width: 200px;
-  height: calc(100% / 2);
+  height: 35vh;
+  width: 15vw;
   position: relative;
   cursor: pointer;
 }
@@ -446,8 +443,8 @@ section.square-boxes .small-square img {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  padding: 60px;
   filter: invert(1);
+  padding: 50px;
 }
 
 section.square-boxes .small-square:nth-child(3) img {
