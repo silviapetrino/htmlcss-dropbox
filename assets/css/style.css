@@ -182,7 +182,7 @@ main section.jumbotron {
 .container {
   width: 80%;
   max-width: 1200px;
-  min-width: 600px;
+  min-width: 700px;
   margin: 0px auto;
 }
 
@@ -239,9 +239,8 @@ section.jumbotron .text-section .arrow {
 
 .container-small {
   margin: 0 auto;
-  width: 50%;
-  max-width: 1000px;
-  min-width: 900px;
+  width: 1000px;
+  min-width: 800px;
   flex-wrap: wrap;
 }
 
@@ -266,9 +265,9 @@ section.business-plans .last.col {
 }
 
 
-section.business-plans .col {
-  padding: 0 10px;
-  /* background-color: red; */
+section.business-plans .first-list,
+section.business-plans .second-list {
+ padding: 0 20px;
 }
 
 section.business-plans .text-section h2 {
