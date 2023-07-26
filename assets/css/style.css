@@ -52,9 +52,9 @@ h2 {
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .small-text {
@@ -94,11 +94,40 @@ h2 {
   color: white;
 }
 
+.btn-blue:hover {
+  background-color: var(--blue2);
+}
+
 .small-square.active {
   box-shadow: 0px 0px 0px 13px rgba(0,0,0,0.25) inset;
 }
 
 /* /utility classes  */
+
+
+/* Containers  */
+
+      /* jumbotron and footer container  */ 
+
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      min-width: 700px;
+      margin: 0px auto;
+      }
+    
+    /* container for other sections */
+
+    .container-small {
+      margin: 0 auto;
+      width: 1000px;
+      min-width: 800px;
+      flex-wrap: wrap;
+      }
+       
+/* /Containers  */
+         
 
 /* header section  */
 
@@ -138,7 +167,7 @@ header .topbar .right-elements a {
 
 #logo, 
 header .topbar .left-elements a {
- float: left;
+  float: left;
 }
 
 header .topbar .right-elements a {
@@ -154,7 +183,7 @@ header li:hover a {
   border-bottom: 2px solid black;
 }
 
-    /* header btn  */
+/* header btn  */
 
 .right-elements .btn.inizia {
   background-color: var(--blue);
@@ -170,21 +199,20 @@ header li:hover a {
 /* //header section  */
 
 /* main section  */
+ 
 
-  /* jumbotron section */
+/* jumbotron section */
 
 
-main section.jumbotron {
+
+  
+
+
+section.jumbotron {
   background-color: var(--light-blue);
 }
 
 
-.container {
-  width: 80%;
-  max-width: 1200px;
-  min-width: 700px;
-  margin: 0px auto;
-}
 
 section.jumbotron .container {
   flex-wrap: wrap;
@@ -234,15 +262,11 @@ section.jumbotron .text-section .arrow {
 
 /* //jumbotron section */
 
+
+
+
+
 /*  business-plans section */
-
-
-.container-small {
-  margin: 0 auto;
-  width: 1000px;
-  min-width: 800px;
-  flex-wrap: wrap;
-}
 
 section.business-plans {
   padding-top: 100px;
